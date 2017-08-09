@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.absurd.library.arcmenu.ArcMenu
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/arc_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:position="right_bottom"
+        app:raduis="200dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/composer_button">
+
+            <ImageView
+                android:id="@+id/id_buttom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/composer_icn_plus" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/composer_camera"
+            android:tag="Camera" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/composer_music"
+            android:tag="Music" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/composer_place"
+            android:tag="Place" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/composer_thought"
+            android:tag="Thought" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/composer_sleep"
+            android:tag="Sleep" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/composer_with"
+            android:tag="With" />
+    </com.absurd.library.arcmenu.ArcMenu>
+
+</RelativeLayout>
