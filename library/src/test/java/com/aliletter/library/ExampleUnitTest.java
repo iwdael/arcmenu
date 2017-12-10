@@ -1,4 +1,4 @@
-package com.absurd.arcmenu;
+package com.aliletter.library;
 
 import org.junit.Test;
 

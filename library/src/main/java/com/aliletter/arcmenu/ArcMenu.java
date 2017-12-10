@@ -1,4 +1,4 @@
-package com.absurd.library.arcmenu;
+package com.aliletter.arcmenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,11 +14,10 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 
-import com.absurd.library.R;
 
 /**
- * Author: mr-absurd
- * Github: http://github.com/mr-absurd
+ * Author: aliletter
+ * Github: http://github.com/aliletter
  * Data: 2017/8/8.
  */
 
