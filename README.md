@@ -18,7 +18,7 @@ Add it in your root build.gradle at the end of repositories:
 	}
   
   
-#Instruction
+# Instruction
 ## Step 1. Add to the layout file
 The first child control is the central control, and the other controls appear by clicking on it.
 ```Java
