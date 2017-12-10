@@ -15,7 +15,6 @@ Add it in your root build.gradle at the end of repositories:
 
 	dependencies {
           compile 'com.github.aliletter:arcmenu:v1.0.1'
-          
 	}
   
   
