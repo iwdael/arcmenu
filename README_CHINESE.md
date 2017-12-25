@@ -1,8 +1,8 @@
 # arcmenu[![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
-ArcMenue is a menu control that expands the options by animating the effect.
-## Instrcution
-The first child control is the central control, and the other controls appear by clicking on it.The value of position corresponds to the order in which subspaces are added in the layout.
-### Code Sample
+ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
+## 使用说明
+第一个子控件是中央控件，其他控件通过点击来显示。 position的值与子控件在布局中添加的顺序相对应。
+### 代码示例
 ```Java
         arcMenu= (ArcMenu) findViewById(R.id.arc_menu);
         arcMenu.setOnArcMenuItemClickListener(new ArcMenu.OnArcMenuItemClickListener() {
@@ -72,30 +72,30 @@ The first child control is the central control, and the other controls appear by
             android:tag="With" />
     </com.aliletter.arcmenu.ArcMenu>
 ```
-## How to
-To get a Git project into your build:
-### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
- ```Java
- 	allprojects {
- 		repositories {
- 			...
- 			maven { url 'https://jitpack.io' }
- 		}
- 	}
- ```
-### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.[click here for details](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
- ```Java
- 	dependencies {
-                 ...
- 	        compile 'com.github.aliletter:arcmenu:v1.0.1'
- 	}
- ```
+## 如何配置
+将本仓库引入你的项目:
+### Step 1. 添加JitPack仓库到Build文件
+合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
+```Java
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+### Step 2. 添加依赖   
+合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
+```Java
+	dependencies {
+                ...
+	        compile 'com.github.aliletter:arcmenu:v1.0.1'
+	}
+```
 <br><br>
 ![Image text](https://github.com/aliletter/arcmenu/blob/master/arcmenu.gif)
 <br><br><br>
-## Thank you for your browsing
-If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
+## 感谢浏览
+如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
 ![Image Text](https://github.com/aliletter/CarouselBanner/blob/master/qq_group.png)
