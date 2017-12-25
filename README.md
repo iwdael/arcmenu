@@ -1,4 +1,4 @@
-# arcmenu[![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
+# arcmenu  [![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
 ArcMenue is a menu control that expands the options by animating the effect.[中文文档](https://github.com/aliletter/arcmenu/blob/master/README_CHINESE.md)
 ## Instrcution
 The first child control is the central control, and the other controls appear by clicking on it.The value of position corresponds to the order in which subspaces are added in the layout.

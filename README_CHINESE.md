@@ -1,4 +1,4 @@
-# arcmenu[![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
+# arcmenu  [![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
 ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
 ## 使用说明
 第一个子控件是中央控件，其他控件通过点击来显示。 position的值与子控件在布局中添加的顺序相对应。
