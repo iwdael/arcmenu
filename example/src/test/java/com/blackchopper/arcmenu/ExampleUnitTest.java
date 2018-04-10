@@ -1,4 +1,4 @@
-package com.aliletter.arcmenu;
+package com.blackchopper.arcmenu;
 
 import org.junit.Test;
 

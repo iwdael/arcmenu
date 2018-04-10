@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://C:\Users\alile\Desktop\arcmenu\example\app.iml" filepath="C:\Users\alile\Desktop\arcmenu\example\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arcmenu.iml" filepath="$PROJECT_DIR$/.idea/modules/arcmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arcmenu.iml" filepath="$PROJECT_DIR$/arcmenu.iml" />
+      <module fileurl="file://F:\arcmenu\.idea\modules\arcmenu.iml" filepath="F:\arcmenu\.idea\modules\arcmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://F:\arcmenu\example\example.iml" filepath="F:\arcmenu\example\example.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://F:\arcmenu\library\library.iml" filepath="F:\arcmenu\library\library.iml" />
     </modules>
   </component>
 </project>
