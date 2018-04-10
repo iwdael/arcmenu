@@ -1,4 +1,4 @@
-# arcmenu  [![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
+# arcmenu  [![](https://jitpack.io/v/blackchopper/arcmenu.svg)](https://jitpack.io/#blackchopper/arcmenu)
 ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
 ## 使用说明
 第一个子控件是中央控件，其他控件通过点击来显示。 position的值与子控件在布局中添加的顺序相对应。
@@ -13,7 +13,7 @@ ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
         });
 ```
 ```Java
-<com.aliletter.arcmenu.ArcMenu
+<com.blackchopper.arcmenu.ArcMenu
         android:layout_marginRight="40dp"
         android:layout_marginBottom="40dp"
         android:id="@+id/arc_menu"
@@ -70,12 +70,12 @@ ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
             android:layout_height="wrap_content"
             android:src="@mipmap/composer_with"
             android:tag="With" />
-    </com.aliletter.arcmenu.ArcMenu>
+    </com.blackchopper.arcmenu.ArcMenu>
 ```
 ## 如何配置
 将本仓库引入你的项目:
 ### Step 1. 添加JitPack仓库到Build文件
-合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
+合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
 ```Java
 	allprojects {
 		repositories {
@@ -85,17 +85,17 @@ ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
 	}
 ```
 ### Step 2. 添加依赖   
-合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
+合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
 ```Java
 	dependencies {
                 ...
-	        compile 'com.github.aliletter:arcmenu:v1.0.1'
+	        compile 'com.github.blackchopper:arcmenu:v1.0.2'
 	}
 ```
 <br><br>
-![Image text](https://github.com/aliletter/arcmenu/blob/master/arcmenu.gif)
+![Image text](https://github.com/blackchopper/arcmenu/blob/master/arcmenu.gif)
 <br><br><br>
 ## 感谢浏览
 如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
-![Image Text](https://github.com/aliletter/CarouselBanner/blob/master/qq_group.png)
+![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)

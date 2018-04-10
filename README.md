@@ -1,5 +1,5 @@
-# arcmenu  [![](https://jitpack.io/v/aliletter/arcmenu.svg)](https://jitpack.io/#aliletter/arcmenu)
-ArcMenue is a menu control that expands the options by animating the effect.[中文文档](https://github.com/aliletter/arcmenu/blob/master/README_CHINESE.md)
+# arcmenu  [![](https://jitpack.io/v/blackchopper/arcmenu.svg)](https://jitpack.io/#blackchopper/arcmenu)
+ArcMenue is a menu control that expands the options by animating the effect.[中文文档](https://github.com/blackchopper/arcmenu/blob/master/README_CHINESE.md)
 ## Instrcution
 The first child control is the central control, and the other controls appear by clicking on it.The value of position corresponds to the order in which subspaces are added in the layout.
 ### Code Sample
@@ -13,7 +13,7 @@ The first child control is the central control, and the other controls appear by
         });
 ```
 ```Java
-<com.aliletter.arcmenu.ArcMenu
+<com.blackchopper.arcmenu.ArcMenu
         android:layout_marginRight="40dp"
         android:layout_marginBottom="40dp"
         android:id="@+id/arc_menu"
@@ -70,12 +70,12 @@ The first child control is the central control, and the other controls appear by
             android:layout_height="wrap_content"
             android:src="@mipmap/composer_with"
             android:tag="With" />
-    </com.aliletter.arcmenu.ArcMenu>
+    </com.blackchopper.arcmenu.ArcMenu>
 ```
 ## How to
 To get a Git project into your build:
 ### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
+Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
  ```Java
  	allprojects {
  		repositories {
@@ -85,17 +85,17 @@ Add it in your root build.gradle at the end of repositories.   [click here for d
  	}
  ```
 ### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.[click here for details](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
+Add it in your application module build.gradle at the end of dependencies where you want to use.[click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
  ```Java
  	dependencies {
                  ...
- 	        compile 'com.github.aliletter:arcmenu:v1.0.1'
+ 	        compile 'com.github.blackchopper:arcmenu:v1.0.2'
  	}
  ```
 <br><br>
-![Image text](https://github.com/aliletter/arcmenu/blob/master/arcmenu.gif)
+![Image text](https://github.com/blackchopper/arcmenu/blob/master/arcmenu.gif)
 <br><br><br>
 ## Thank you for your browsing
 If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
 <br>
-![Image Text](https://github.com/aliletter/CarouselBanner/blob/master/qq_group.png)
+![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)
