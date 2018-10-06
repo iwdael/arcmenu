@@ -1,4 +1,4 @@
-package com.blackchopper.arcmenu;
+package com.hacknife.arcmenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,9 +16,9 @@ import android.view.animation.TranslateAnimation;
 
 
 /**
- * author  : Black Chopper
+ * author  : hacknife
  * e-mail  : 4884280@qq.com
- * github  : http://github.com/BlackChopper
+ * github  : http://github.com/hacknife
  * project : ArcMenu
  */
 public class ArcMenu extends ViewGroup implements View.OnClickListener {

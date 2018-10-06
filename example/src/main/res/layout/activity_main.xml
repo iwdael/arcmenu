@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.blackchopper.arcmenu.ArcMenu
+    <com.hacknife.arcmenu.ArcMenu
         android:layout_marginRight="40dp"
         android:layout_marginBottom="40dp"
         android:id="@+id/arc_menu"
@@ -62,6 +62,6 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/composer_with"
             android:tag="With" />
-    </com.blackchopper.arcmenu.ArcMenu>
+    </com.hacknife.arcmenu.ArcMenu>
 
 </RelativeLayout>
