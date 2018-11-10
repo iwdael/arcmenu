@@ -1,5 +1,6 @@
 # ArcMenu
 [![](https://img.shields.io/badge/platform-android-orange.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/language-java-yellow.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/JCenter-1.0.4-brightgreen.svg)](http://jcenter.bintray.com/com/hacknife/arcmenu/) [![](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/license-apache--2.0-green.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/api-19+-green.svg)](https://github.com/hacknife)<br/><br/>
+ArcMenue是一个菜单控件，通过动画的效果展开更多的选项。
 <br><br>
 ![Image text](https://github.com/hacknife/arcmenu/blob/master/arcmenu.gif)
 <br><br>
